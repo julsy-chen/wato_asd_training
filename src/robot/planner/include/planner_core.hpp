@@ -1,3 +1,4 @@
+#pragma once
 #ifndef PLANNER_CORE_HPP_
 #define PLANNER_CORE_HPP_
 

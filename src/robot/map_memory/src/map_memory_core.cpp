@@ -1,3 +1,4 @@
+
 #include "map_memory_core.hpp"
 
 namespace robot

@@ -1,3 +1,4 @@
+#pragma once
 #include "costmap_core.hpp"
 
 namespace robot

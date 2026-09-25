@@ -1,3 +1,4 @@
+#pragma once
 #ifndef MAP_MEMORY_CORE_HPP_
 #define MAP_MEMORY_CORE_HPP_
 

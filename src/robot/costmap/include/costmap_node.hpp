@@ -1,3 +1,4 @@
+#pragma once
 #ifndef COSTMAP_NODE_HPP_
 #define COSTMAP_NODE_HPP_
  
