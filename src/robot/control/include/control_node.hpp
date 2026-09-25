@@ -37,7 +37,7 @@ class ControlNode : public rclcpp::Node {
 
     double lookahead_distance_ = 1.0;   // how far ahead to aim, metres
     double goal_tolerance_ = 0.3;       // stop within this of the last point
-    double linear_speed_ = 1.0;         // constant forward speed, m/s
+    double linear_speed_ = 1.5;         // constant forward speed, m/s
     double max_angular_speed_ = 1.5;    // cap on turn rate, rad/s
 };
 

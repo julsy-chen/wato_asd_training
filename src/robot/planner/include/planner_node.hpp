@@ -57,7 +57,7 @@ class PlannerNode : public rclcpp::Node {
     State state_ = State::WAITING_FOR_GOAL;
 
     double goal_tolerance_ = 0.5;
-    int occupancy_threshold_ = 5.0;  // cells at/above this are treated as blocked
+    int occupancy_threshold_ = 1.0;  // cells at/above this are treated as blocked
 };
 
 #endif
