@@ -18,8 +18,6 @@ CostmapNode::CostmapNode() : Node("costmap"), costmap_(robot::CostmapCore(this->
   RCLCPP_INFO(this->get_logger(), "costmap node started, publishing /costmap");
 }
 
-// Publishes an all-zero grid every 100ms. No lidar yet — this step only proves
-// the message is shaped correctly and shows up in Foxglove.
 void CostmapNode::publishMessage() {
   nav_msgs::msg::OccupancyGrid msg;
 

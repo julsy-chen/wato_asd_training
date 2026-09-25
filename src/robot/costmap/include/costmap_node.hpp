@@ -2,7 +2,6 @@
 #define COSTMAP_NODE_HPP_
  
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
 #include "nav_msgs/msg/occupancy_grid.hpp"
 #include "costmap_core.hpp"
 #include "sensor_msgs/msg/laser_scan.hpp"
